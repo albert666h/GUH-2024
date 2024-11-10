@@ -89,9 +89,9 @@ def get_questions(path):
         data=[]
         for part in parts:
             temp=part.split('->')
-            if 'True' in temp[1]:
+            if 'true' in temp[1].lower():
                 temp[1]='True'
-            if 'False' in temp[1]:
+            if 'false' in temp[1].lower():
                 temp[1]='False'
             data.append(temp)
         datum.append(data)

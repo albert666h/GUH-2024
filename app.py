@@ -118,7 +118,7 @@ def upload_file():
 
 @app.route('/quiz')
 def quiz():
-    return render_template('/quiz.html')#, data=session['data'])
+    return render_template('/quiz.html', data=session['data'])
 
 @app.route('/upload-quiz')
 def upload_quiz():

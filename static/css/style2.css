@@ -182,3 +182,32 @@ body, html {
     text-align: center; /* Center-align text */
 }
 
+.question-btn {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 2px solid #ddd;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.question-btn:hover {
+    background-color: #eee;
+}
+
+.question-btn.correct {
+    background-color: #9AFD7F;
+    color: #000;
+    border-color: #8ce569;
+}
+
+.question-btn.incorrect {
+    background-color: #ff8080;
+    color: #fff;
+    border-color: #ff4d4d;
+}
+style2.css

@@ -13,10 +13,8 @@
             <span class="company-name">Memora</span>
         </div>
         <ul class="navbar-menu">
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
-            <li><a href="#">Section</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Home</a></li>
         </ul>
     </nav>
 
@@ -58,29 +56,36 @@
     <!-- Main content area that scrolls with each section filling the full viewport -->
     <div class="content-wrapper">
         <!-- Content section for the year 2016 -->
-        <section class="content-section" id="section-2016">
-            <h1>Choose the altered question:</h1> <!-- Section header for the year -->
-            <p>Details for the year 2016...</p> <!-- Description for the year -->
+        <<section class="content-section" id="section-2016">
+            <h1>Choose the altered question:</h1>
+            <button class="question-btn" data-correct="{{ data[0][0][1] }}"> {{ data[0][0][0] }} </button>
+            <button class="question-btn" data-correct="{{ data[0][1][1] }}">{{ data[0][1][0] }}</button>
+            <button class="question-btn" data-correct="{{ data[0][2][1] }}">{{ data[0][2][0] }}</button>
         </section>
         <!-- Content section for the year 2017 -->
         <section class="content-section" id="section-2017">
             <h1>Choose the altered question:</h1>
-            <p>Details for the year 2017...</p>
+            <button class="question-btn" data-correct="{{ data[1][0][1] }}"> {{ data[1][0][0] }} </button>
+            <button class="question-btn" data-correct="{{ data[1][1][1] }}">{{ data[1][1][0] }}</button>
+            <button class="question-btn" data-correct="{{ data[1][2][1] }}">{{ data[1][2][0] }}</button>
         </section>
-        <!-- Content section for the year 2018 -->
         <section class="content-section" id="section-2018">
             <h1>Choose the altered question:</h1>
-            <p>Details for the year 2018...</p>
+            <button class="question-btn" data-correct="{{ data[2][0][1] }}"> {{ data[2][0][0] }} </button>
+            <button class="question-btn" data-correct="{{ data[2][1][1] }}">{{ data[2][1][0] }}</button>
+            <button class="question-btn" data-correct="{{ data[2][2][1] }}">{{ data[2][2][0] }}</button>
         </section>
-        <!-- Content section for the year 2019 -->
         <section class="content-section" id="section-2019">
             <h1>Choose the altered question:</h1>
-            <p>Details for the year 2019...</p>
+            <button class="question-btn" data-correct="{{ data[3][0][1] }}"> {{ data[3][0][0] }} </button>
+            <button class="question-btn" data-correct="{{ data[3][1][1] }}">{{ data[3][1][0] }}</button>
+            <button class="question-btn" data-correct="{{ data[3][2][1] }}">{{ data[3][2][0] }}</button>
         </section>
-        <!-- Content section for the year 2020 -->
         <section class="content-section" id="section-2020">
             <h1>Choose the altered question:</h1>
-            <p>Details for the year 2020...</p>
+            <button class="question-btn" data-correct="{{ data[4][0][1] }}"> {{ data[4][0][0] }} </button>
+            <button class="question-btn" data-correct="{{ data[4][1][1] }}">{{ data[4][1][0] }}</button>
+            <button class="question-btn" data-correct="{{ data[4][2][1] }}">{{ data[4][2][0] }}</button>
         </section>
     </div>
 
