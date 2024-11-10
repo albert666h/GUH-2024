@@ -6,13 +6,6 @@
     <title>Timeline</title>
     <link rel="stylesheet" href="static/css/timeline.css">
 
-    <script>
-        const sendLogout = () => {
-            const xhr = new XMLHttpRequest();
-            xhr.open('GET', 'http://localhost:5000/logout', true);
-            xhr.send();
-        }
-    </script>
 
     <style>
         /* Overlay styling */
@@ -36,7 +29,7 @@
 
 </head>
         
-<body onbeforeunload="sendLogout()" style="background: linear-gradient(180deg, black {% for item in data %}, {{ item.color }} {% endfor %}, black);">
+<body style="background: linear-gradient(180deg, black {% for item in data %}, {{ item.color }} {% endfor %}, black);">
     <div class="timeline content-section">
         <div class="line"></div>
 

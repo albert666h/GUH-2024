@@ -1,0 +1,142 @@
+[03/02/2024, 14:15:52] Finn: Hey Kate, sorry to bother you, but I was wondering if you could help me with a math problem from our coursework?
+[03/02/2024, 14:16:20] Kate: Hey! No problem at all. What’s the problem?
+[03/02/2024, 14:17:04] Finn: It’s the one on integration by parts. I’m stuck on the second part where you have to find the value of the definite integral.
+[03/02/2024, 14:17:42] Kate: Ah, I see! So you’ve got ∫u dv, and you’re trying to use the formula, right?
+[03/02/2024, 14:18:17] Finn: Yeah, exactly. I did the first part, but when I substitute the limits for the definite integral, I get a weird result. I’m probably missing something.
+[03/02/2024, 14:18:59] Kate: Okay, let's check it together. When you substitute the limits, you have to make sure you’re applying the formula correctly, especially with the signs. What’s the function you’re integrating?
+[03/02/2024, 14:19:38] Finn: It’s e^x * sin(x). I tried setting u = e^x and dv = sin(x)dx, but it’s not working out like I expected.
+[03/02/2024, 14:20:12] Kate: Right, good choice of u and dv. But I think you made a mistake when you integrated dv. The integral of sin(x) should be -cos(x), not just cos(x).
+[03/02/2024, 14:20:58] Finn: Ohhhh, that makes sense. I completely missed the minus sign. Thanks for pointing that out!
+[03/02/2024, 14:21:32] Kate: No problem at all! That minus sign should fix everything. Now try again with that correction and let me know if it works.
+[03/02/2024, 14:22:06] Finn: I’ll do that right now. Thanks so much for the help! I was seriously getting frustrated with it.
+[03/02/2024, 14:22:45] Kate: Anytime! I’ve been there too, don’t worry. Let me know if you run into anything else.
+[03/02/2024, 14:23:10] Finn: Will do! By the way, are you in the library later? I’m planning to study for the midterms and thought we could maybe meet up and go over a few more problems.
+[03/02/2024, 14:23:42] Kate: I’ll be there around 4. I’m down to study together! It’ll be good to go over some of the stuff with someone else.
+[03/02/2024, 14:24:13] Finn: Cool, I’ll see you then! Thanks again for your help.
+[03/02/2024, 14:24:38] Kate: No problem, see you soon! 😊
+[04/02/2024, 13:21:47] Finn: Hey Kate, I’ve been thinking about the escape room we did yesterday. That was CRAZY.
+[04/02/2024, 13:22:14] Kate: Ugh, I’m still traumatized, haha. That was hands down the scariest one I’ve done. I honestly thought I was going to pass out when the lights went out.
+[04/02/2024, 13:22:56] Finn: I know! I’ve never seen you that scared before. You looked like you were about to explode when that creepy doll started talking. 😂
+[04/02/2024, 13:23:37] Kate: OMG, don’t remind me! I swear I felt like my heart was going to stop. I’ve never jumped so high in my life. 😩
+[04/02/2024, 13:24:04] Finn: Haha, I caught a photo of you just after that moment. You look like you saw a ghost. Want me to send it to you?
+[04/02/2024, 13:24:33] Kate: Oh no, please don’t! I probably looked like a mess. But... okay, send it. I have to see it now.
+[04/02/2024, 13:25:03] Finn: Here you go. 😜
+[04/02/2024, 13:25:34] ‎Finn: <attached: escape_room.jpg>
+[04/02/2024, 13:26:01] Kate: OH MY GOD, I look like I’m about to cry! 😂 That doll was evil. Why did you even take that picture?!
+[04/02/2024, 13:26:34] Finn: Haha, I couldn’t help it! It was too perfect of a moment. You should see the other ones I took. Your face was priceless.
+[04/02/2024, 13:27:04] Kate: I can’t even. That doll was way too realistic, and the room was full of weird noises. Who comes up with this stuff?!
+[04/02/2024, 13:27:45] Finn: It was definitely next-level creepy. I loved how we had to solve puzzles in the dark though—added so much tension. But the jump scares? Too much.
+[04/02/2024, 13:28:17] Kate: I’m never doing another one like that. I thought I was going to have a heart attack when the door slammed shut. I couldn’t breathe.
+[04/02/2024, 13:28:52] Finn: Same. That moment when we were locked in the final room and the countdown started... I was literally sweating.
+[04/02/2024, 13:29:23] Kate: I almost couldn’t focus on the puzzles because I was so freaked out. But somehow, we still managed to escape with a few minutes left!
+[04/02/2024, 13:30:02] Finn: Yeah, we did it! But I have to admit, I thought we weren’t going to make it a few times there. That was a close call.
+[04/02/2024, 13:30:33] Kate: Definitely. But at least we didn’t get trapped in there forever, haha. I’ll stick to less intense ones from now on.
+[04/02/2024, 13:31:08] Finn: Agreed. Maybe next time we try one that's less "haunted house" and more "mystery puzzle." No creepy dolls, please.
+[04/02/2024, 13:31:42] Kate: PLEASE. I’ll go back to one of those light-hearted themed rooms. Just no more surprises with creepy stuff. 😅
+[04/02/2024, 13:32:14] Finn: Haha, yeah. It was a fun experience though, even if we both nearly had a meltdown. Maybe we can plan another escape room... but with a lot less screaming.
+[04/02/2024, 13:32:44] Kate: Definitely! Just no clowns. Or dolls. Or anything that might eat me. 😂
+[04/02/2024, 13:33:12] Finn: Haha, agreed. Talk soon!
+[04/02/2024, 13:33:42] Kate: Talk soon. And no more terrifying photos, please. 😂
+[10/06/2024, 15:22:37] Finn: Hey Kate, how's your day going?
+[10/06/2024, 15:23:01] Kate: Hey! It's going alright, just a bit busy with work. How about you?
+[10/06/2024, 15:23:45] Finn: Same here, a lot to catch up on. I feel like I need a break, haha.
+[10/06/2024, 15:24:12] Kate: I hear that! Want to grab coffee this weekend? We could catch up properly.
+[10/06/2024, 15:24:49] Finn: That sounds perfect! Saturday morning?
+[10/06/2024, 15:25:10] Kate: Saturday works for me! What time?
+[10/06/2024, 15:25:41] Finn: How about 10? I can’t do early mornings, haha.
+[10/06/2024, 15:26:03] Kate: Haha, no worries. 10 it is! Do you want to go to that new place, "Bean & Brew"?
+[10/06/2024, 15:26:37] Finn: Yeah, I’ve been wanting to try it! I’ve heard good things about it.
+[10/06/2024, 15:27:05] Kate: Same here! I’ll check the menu online so I don’t make any embarrassing choices, haha.
+[10/06/2024, 15:27:40] Finn: Good idea! I’m definitely getting something sweet though. Maybe a pastry or a muffin.
+[10/06/2024, 15:28:10] Kate: I’m all about the pastries. I’ll probably get a cinnamon roll. 😋
+[10/06/2024, 15:28:45] Finn: Oh, that sounds amazing. I’ll need to get one too, now that you’ve said it!
+[10/06/2024, 15:29:12] Kate: Haha, we’ll be cinnamon roll twins! 😄
+[10/06/2024, 15:29:45] Finn: Love it. Can’t wait! We’ll both need extra coffee to balance out all the sugar.
+[10/06/2024, 15:30:17] Kate: Absolutely! Maybe we can try their signature lattes too. I’m feeling adventurous.
+[10/06/2024, 15:30:55] Finn: Signature lattes it is! You’re getting me excited for this already.
+[10/06/2024, 15:31:28] Kate: Same! It’ll be nice to take a break from all this work. Can’t wait to catch up!
+[10/06/2024, 15:31:57] Finn: Me neither. See you on Saturday at 10 then!
+[10/06/2024, 15:32:17] Kate: It’s a date! Talk soon. 😊
+[15/06/2024, 18:02:47] Finn: Hey Kate, have you seen the latest Rick and Morty episode?
+[15/06/2024, 18:03:12] Kate: Oh my god, yes! I watched it last night. That ending... 😱
+[15/06/2024, 18:03:50] Finn: Right?! I honestly didn’t see that coming. Rick is just... so unpredictable.
+[15/06/2024, 18:04:23] Kate: Seriously. I think he’s lost it this season. Like, what even was that about him giving up on the whole family?
+[15/06/2024, 18:04:58] Finn: I know, it was heartbreaking. I’m really hoping they fix things in the next episode. Morty looked so crushed.
+[15/06/2024, 18:05:38] Kate: Morty’s always the one who gets hurt the most, but this season he’s really been through it. Poor kid.
+[15/06/2024, 18:06:10] Finn: Yeah, it’s rough. I almost feel like the show is starting to show Rick’s vulnerability though, like he's not the unshakeable genius anymore.
+[15/06/2024, 18:06:43] Kate: I totally agree. He’s more of a mess than he lets on. It’s kind of refreshing to see that side of him.
+[15/06/2024, 18:07:21] Finn: For sure. And Beth’s character arc this season has been so interesting too! Like, she's starting to really come into her own.
+[15/06/2024, 18:07:58] Kate: YES! I love how much more confident and badass she’s become. She’s definitely not just a background character anymore.
+[15/06/2024, 18:08:31] Finn: Exactly! The whole family’s dynamics are shifting, and it makes for such a compelling story.
+[15/06/2024, 18:09:07] Kate: Can we talk about Jerry though? Like, he’s actually becoming one of my favorite characters. He’s had some hilarious moments this season.
+[15/06/2024, 18:09:39] Finn: Haha, I know! His cluelessness is actually endearing now. I think he’s been growing in ways we never expected.
+[15/06/2024, 18:10:12] Kate: He’s like the underdog of the family at this point. I’m so here for it.
+[15/06/2024, 18:10:45] Finn: Same! It’s a wild ride this season. Can’t wait for next week’s episode.
+[15/06/2024, 18:11:16] Kate: Same here. Let’s watch it together when it drops!
+[15/06/2024, 18:11:39] Finn: Deal. We’ll get some snacks and make it a mini Rick and Morty marathon.
+[15/06/2024, 18:12:02] Kate: Perfect! I’ll bring the chips and you bring the weird energy drinks. 😂
+[15/06/2024, 18:12:31] Finn: Haha, done! This is going to be great.
+[15/06/2024, 18:12:55] Kate: It’s a plan. Talk soon!
+[15/06/2024, 18:13:15] Finn: Talk soon! 😊
+[15/07/2024, 09:15:30] Kate: Hey! Have you decided what time you want to catch the train to London today?
+[15/07/2024, 09:16:02] Finn: Morning! I was thinking about the 10:00 AM. Gives us enough time to grab breakfast.
+[15/07/2024, 09:16:29] Kate: Sounds good! I’ll meet you at the station around 9:40 then?
+[15/07/2024, 09:16:55] Finn: Perfect, I’ll get the tickets. We’re on the same train, right?
+[15/07/2024, 09:17:18] Kate: Yep, I checked. It’s the 10:00 direct to Kings Cross.
+[15/07/2024, 09:18:02] Finn: Awesome. We should get to London by 12:30, right?
+[15/07/2024, 09:18:29] Kate: Yup, plenty of time for lunch and exploring!
+[15/07/2024, 09:19:00] Finn: Ooh, should we go to Borough Market for lunch? I heard they have amazing street food.
+[15/07/2024, 09:19:35] Kate: Yes! That sounds amazing. I’ll be starving by then.
+[15/07/2024, 09:19:59] Finn: Great! I’ll grab us some coffees at the station before we get on the train.
+[15/07/2024, 09:20:30] Kate: You’re a legend. See you at 9:40!
+[15/07/2024, 09:20:59] Finn: Can’t wait! Catch you soon!
+[15/08/2024, 16:05:27] Finn: Hey Kate, I just got back from Paris! It was amazing!
+[15/08/2024, 16:05:58] Kate: No way! That’s awesome. How was it? Did you get to see all the touristy stuff?
+[15/08/2024, 16:06:34] Finn: Yeah, I did all the classics—Eiffel Tower, Louvre, Notre Dame. But honestly, the food was the highlight. Croissants every morning. 😋
+[15/08/2024, 16:07:03] Kate: Ugh, I’m so jealous. You have to tell me everything! How was the Eiffel Tower? It’s one of my dream spots to visit.
+[15/08/2024, 16:07:45] Finn: It was unbelievable. I went up to the top and the view of the city was insane. You could see everything! I even took a ridiculous tourist photo, haha. Want to see?
+[15/08/2024, 16:08:17] Kate: YES, send it! I’m living vicariously through you right now.
+[15/08/2024, 16:08:44] Finn: Haha, okay here it is! 😜
+[15/08/2024, 16:09:12] ‎<attached: paris.jpg>
+[15/08/2024, 16:09:45] Kate: Haha, love it! You look so happy! That view looks amazing. How was the line to get in?
+[15/08/2024, 16:10:15] Finn: Thanks! The line wasn’t too bad, actually. I think I got lucky. But once you’re up there, it’s totally worth the wait. You have to go at sunset if you can—it’s magical.
+[15/08/2024, 16:10:57] Kate: Sunset, definitely. I bet it’s even better at night with all the lights.
+[15/08/2024, 16:11:28] Finn: 100%. At night, the tower sparkles every hour for a few minutes. It’s seriously one of the most beautiful things I’ve ever seen.
+[15/08/2024, 16:12:00] Kate: That sounds incredible. I need to book my trip now. What else did you do while you were there?
+[15/08/2024, 16:12:34] Finn: I spent a whole day at the Louvre—saw the Mona Lisa and everything! And I wandered around Montmartre, which is this artsy district. It was so charming.
+[15/08/2024, 16:13:05] Kate: Ohh, Montmartre sounds perfect. I’ve heard it’s really picturesque. Were there a lot of tourists, or was it pretty chill?
+[15/08/2024, 16:13:47] Finn: There were tourists, but not as many as in other parts of the city. It’s a bit off the beaten path, so it felt more authentic. I had a great lunch at this little café tucked away in a side street.
+[15/08/2024, 16:14:16] Kate: That sounds like the dream. I’d love to sit at a Parisian café, people-watch, and drink coffee. 😍
+[15/08/2024, 16:14:46] Finn: Oh, you’d love it. I had espresso and croissants every morning, just soaking in the Parisian vibe. And the bakeries there are something else. I almost didn’t want to leave!
+[15/08/2024, 16:15:23] Kate: Don’t tell me that! Now I need to go even more. 😂 Was there anything you didn’t like?
+[15/08/2024, 16:15:57] Finn: Honestly, no. Maybe the weather was a bit chilly for my liking, but other than that, it was perfect.
+[15/08/2024, 16:16:28] Kate: That’s amazing. Now I’m planning my own trip, haha. Let’s go together someday!
+[15/08/2024, 16:16:56] Finn: I’m so down. Paris with you would be epic. We’d eat all the croissants and take a million tourist photos. 😂
+[15/08/2024, 16:17:25] Kate: Haha, yes! Let’s make it happen. Thanks for the pics and the tips. I’m even more excited now.
+[15/08/2024, 16:17:59] Finn: Anytime! I’m just glad I could share some of it with you. You’ll love it when you go!
+[15/08/2024, 16:18:31] Kate: Can’t wait! Talk soon, Finn.
+[15/08/2024, 16:18:53] Finn: Talk soon, Kate! 😊
+[25/08/2024, 14:12:30] Finn: Hey Kate, I’ve finished editing the photo for your CV!
+[25/08/2024, 14:12:52] Kate: Ooh, thanks! I’m kind of nervous about how it turned out. Did I look too serious? 😂
+[25/08/2024, 14:13:15] Finn: Haha, no worries! You look professional but still friendly. I think it's perfect for a CV. I brightened it up a bit and adjusted the background to make you stand out more.
+[25/08/2024, 14:13:45] Kate: Wow, that sounds awesome. You’re the Photoshop wizard, Finn. Can’t wait to see it!
+[25/08/2024, 14:14:10] Finn: Here it is! Check it out. 😊
+[25/08/2024, 14:14:33] Finn: <attached: CVphoto.jpg>
+[25/08/2024, 14:15:00] Kate: WHOA, that looks amazing! You really worked some magic there. I look like a proper professional now. 😎
+[25/08/2024, 14:15:29] Finn: Glad you like it! It was easy with such a great photo to start with. I’m sure you’ll get tons of compliments.
+[25/08/2024, 14:16:00] Kate: Thank you so much, Finn! You’re the best. I’ll send it out with my CV now.
+[25/08/2024, 14:16:28] Finn: Anytime! Good luck with the job apps. You’ve got this. 😄
+[25/08/2024, 14:16:53] Kate: Thanks, I’ll let you know if I get any responses! Talk soon!
+[25/08/2024, 14:17:15] Finn: You’ll be hearing good news, I’m sure. Talk soon! 👋
+[09/11/2024, 15:23:12] Kate: Hey! Do you want to go to the cinema tonight?
+[09/11/2024, 15:23:45] Finn: Yeah, sounds good! What time are you thinking?
+[09/11/2024, 15:24:10] Kate: I was thinking about 7:30 PM? There's that new action movie out.
+[09/11/2024, 15:24:50] Finn: Ooh, which one? The one with all the car chases?
+[09/11/2024, 15:25:14] Kate: Yep, that's the one! "Fast X". It’s supposed to be insane.
+[09/11/2024, 15:25:52] Finn: Sounds awesome. I’m in. Should we grab dinner after?
+[09/11/2024, 15:26:22] Kate: Perfect idea! Maybe somewhere near the cinema?
+[09/11/2024, 15:27:05] Finn: Yeah, there's that Italian place just down the street.
+[09/11/2024, 15:27:30] Kate: Yes, I love their pasta! See you at 7:30 then?
+[09/11/2024, 15:28:01] Finn: Can’t wait! I’ll buy the tickets, you get the snacks?
+[09/11/2024, 15:28:25] Kate: Deal! See you soon! 😊
+[09/11/2024, 15:28:50] Finn: Alright, talk later!
