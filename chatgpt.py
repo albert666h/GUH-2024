@@ -54,7 +54,8 @@ def extractData_timeline(path):
     with open(path + '/_chat.txt') as f:
         lines = f.readlines()
     chat=''.join(lines[-min(1500, len(lines)):])
-    return gpt(chat)
+    output=gpt(chat)
+    return output
 
 def extractData_quiz(path):
     with ZipFile(path, 'r') as zObject: 

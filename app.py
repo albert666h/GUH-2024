@@ -70,7 +70,7 @@ def upload_file():
     res = chatgpt.extractData_timeline(path=path1).split("\n")
 
     content = []
-
+    
     for line in res:
         start = line.find("[") + 1
         end = line.find("]")
@@ -88,9 +88,10 @@ def upload_file():
 
         if img:
             color = image_analyzer.extractData_image(UPLOAD_FOLDER+'/'+session['cookie']+'/'+img)
+            
 
             for mood in image_analyzer.colours.keys():
-                if mood in color:
+                if mood in color.lower():
                     color = image_analyzer.colours[mood]
                     break
 
