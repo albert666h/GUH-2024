@@ -90,7 +90,7 @@ def upload_file():
                 img = i
                 break
         
-        color = 'black'
+        color = 'white'
 
         if img:
             color = image_analyzer.extractData_image(UPLOAD_FOLDER+'/'+session['cookie']+'/'+img)
@@ -118,7 +118,7 @@ def upload_file():
 
 @app.route('/quiz')
 def quiz():
-    return "quiz"
+    return render_template('/quiz.html')#, data=session['data'])
 
 @app.route('/upload-quiz')
 def upload_quiz():
@@ -126,7 +126,7 @@ def upload_quiz():
         return redirect('/')
     path = os.path.join(UPLOAD_FOLDER, session['cookie'])
 
-    res = chatgpt.extractData_quiz(path=path)
+    res = chatgpt.get_questions(path=path)
 
     print(res)
 

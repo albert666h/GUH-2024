@@ -2,7 +2,7 @@ from openai import OpenAI
 # from zipfile import ZipFile
 key = open('key', 'r').readline().rstrip()
 client = OpenAI(api_key=key)
-prompt = \
+prompt1 = \
 '''
 Read this chat log and identify top 5 most memorable events. You should:
  
@@ -35,8 +35,23 @@ data log:
 
 '''
 
+prompt2 = \
+'''
+Analyze this log of a WhatsApp chat of friends and based on it construct three statements for a fun quiz for the friends about their memories
+two of which are false and only one is true
+print the statement followed by a comma and space, then print True or False
+use stricktly the provided response template 
 
-def gpt(data):
+response template:
+    [Statement1] -> [False]
+    [Statement2] -> [True]
+    [Statement3] -> [False]
+    
+
+'''
+
+
+def gpt(data, prompt):
     query = prompt + data
     messages=[
         {'role': 'user', 'content': query}
@@ -54,7 +69,7 @@ def extractData_timeline(path):
     with open(path + '/_chat.txt', 'r') as f:
         lines = f.readlines()
     chat=''.join(lines[-min(1500, len(lines)):])
-    return gpt(chat)
+    return gpt(chat, prompt1)
 
 def extractData_quiz(path):
     # with ZipFile(path + '/chat.zip') as zObject: 
@@ -64,7 +79,7 @@ def extractData_quiz(path):
     with open(path + '/_chat.txt', 'r') as f:
         lines = f.readlines()
     chat=''.join(lines[-min(1500, len(lines)):])
-    return gpt(chat)
+    return gpt(chat, prompt2)
 
 def get_questions(path):
     datum=[]
