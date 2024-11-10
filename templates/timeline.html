@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="static/css/timeline.css">
+
+    <script>
+        const sendLogout = () => {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://localhost:5000/logout', true);
+            xhr.send();
+        }
+    </script>
+
+    <style>
+        background: linear-gradient(180deg {% for item in data %}, {{ item.color }} 20% {% endfor %});
+    </style>
+
+</head>
+<body onbeforeunload="sendLogout()">
+    <div class="timeline">
+        <div class="line"></div>
+
+        {% for item in data %}
+        <div class="year" data-year="{{ item.date }}" data-year-color="#0c335700" data-bottom-color="{{ item.color }}">
+            <div class="content">
+                <h2>{{ item.title }}</h2>
+                {% if item.img %}
+                    <img src="{{ item.img }}" alt="">
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+
+    <script src="static/js/timeline.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures navbar stays on top */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.company-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333333;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.navbar-menu li a:hover {
+    color: #568e47;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    text-align: center;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto 40px;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.highlight {
+    position: relative;
+    display: inline-block;
+}
+
+.swirly-line {
+    position: absolute;
+    top: 46%; /* Adjusted to center behind title text */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140%; /* Make the line stretch across the text */
+    max-width: 500px; /* Limit max width to keep it from being too large */
+    height: auto;
+    z-index: -1; /* Ensure it’s behind the text */
+    opacity: 0.8;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px; /* Increase box width */
+    height: 500px; /* Increase box height */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-top: 50px;
+    font-size: 1.3em;
+    color: #333;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.select-btn {
+    background-color: #9AFD7F;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.select-btn:hover {
+    background-color: #8ce569;
+}
+
+.coming-soon-btn {
+    background-color: #ddd;
+    color: #666;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: not-allowed;
+}
+
