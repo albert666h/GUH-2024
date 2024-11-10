@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    overflow-y: scroll;
+    background-attachment: fixed; 
+    background-size: cover;
+    /* background: linear-gradient(180deg, #0c3357, #9AFD7F); */
+}
+
+.image {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+    opacity: 0.5;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    padding: 50px 0;
+}
+
+
+.line {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 280px;
+    width: 4px;
+    height: 100%;
+}
+
+.year {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+    opacity: 0.3; 
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    transform: translateX(-20px);
+}
+
+.year.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.year::before {
+    color: white;
+    content: attr(data-year);
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 3em;
+    opacity: 1;
+}
+
+.content {
+    color: white;
+    max-width: 600px; 
+    padding: 20px; 
+    border-radius: 8px; 
+    position: relative;
+    right: -200px; 
+}
+
+.content h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
