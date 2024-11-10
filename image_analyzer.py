@@ -45,14 +45,9 @@ def gpt(data_url):
            ] }
     ]
     chat = client.chat.completions.create(model='gpt-4-turbo', messages=messages)
-    reply = chat.choices[0].message.content
-
-    for word in colours:
-        if word in reply:
-            print(colours[word])
-    print(f'ChatGPT: {reply}')
+    return chat.choices[0].message.content
 
 
-image_path = 'portrait-sad-person_257123-12389-2402879782.jpg'
-data_url = local_image_to_data_url(image_path)
-gpt(data_url)
+def extractData_image(image_path):
+    data_url = local_image_to_data_url(image_path)
+    return gpt(data_url)

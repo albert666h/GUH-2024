@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+
+    <script>
+        const sendLogout = () => {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'http://localhost:5000/logout', true);
+            xhr.send();
+        }
+    </script>
+
+    <link rel="stylesheet" href="static/css/timeline.css">
+</head>
+<body onbeforeunload="return sendLogout()">
+    <div class="timeline">
+        <div class="line"></div>
+
+        {% for item in data %}
+        <div class="year" data-year="{{ item.date }}">
+            <div class="content">
+                <h2>{{ item.title }}</h2>
+                {% if item.img %}
+                    <img src="{{ item.img }}" alt="">
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+        
+
+    </div>
+
+    <script src="static/js/timeline.js"></script>
+</body>
+</html>
+
