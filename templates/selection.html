@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select Mode</title>
-    <link rel="stylesheet" href="styleSelection.css">
+    <link rel="stylesheet" href="static/css/styleSelection.css">
 </head>
 <body>
 
     <!-- Top Navigation Bar -->
     <nav class="navbar">
         <div class="navbar-logo">
-            <img src="logo.png" alt="Memora Logo" class="logo">
+            <img src="static/img/logo.png" alt="Memora Logo" class="logo">
             <span class="company-name">Memora</span>
         </div>
         <ul class="navbar-menu">
@@ -23,7 +23,7 @@
         <div class="container">
             <h1 class="title">
                 <span class="highlight">
-                    <img src="pink_line.png" alt="Swirly Line" class="swirly-line">
+                    <img src="static/img/pink_line.png" alt="Swirly Line" class="swirly-line">
                     Select Mode
                 </span>
             </h1>
@@ -38,14 +38,14 @@
                 <div class="card">
                     <h2>Timeline</h2>
                     <p>Dive into a detailed timeline of your past conversations, reliving each memory in the order it happened. Track the highlights, see how your chats evolved, and enjoy a nostalgic look back at your story over time.</p>
-                    <button class="select-btn">Select</button>
+                    <a href='/upload-timeline' method="post" class="select-btn">Select</a>
                 </div>
                 
                 <!-- 2 Truths 1 Altered Card -->
                 <div class="card">
                     <h2>2 Truths 1 Altered</h2>
                     <p>Challenge your memory with a twist! We’ll present three statements from your past chats, but one of them has been subtly altered. Can you spot the difference and identify which memory doesn’t match the original?</p>
-                    <button class="select-btn">Select</button>
+                    <a href='/upload-quiz' method="post" class="select-btn">Select</a>
                 </div>
                 
                 <!-- News Article Card -->
