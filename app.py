@@ -128,6 +128,8 @@ def upload_quiz():
 
     res = chatgpt.get_questions(path=path)
 
+    session['data'] = res
+
     print(res)
 
     return redirect('/quiz')
