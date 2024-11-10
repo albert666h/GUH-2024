@@ -61,7 +61,7 @@ def extractData_quiz(path):
        zObject.extractall(path="chat/") 
     #file= open('chat/_chat.txt')
     chat=''
-    with open('chat/_chat.txt') as f:
+    with open(path + '/_chat.txt', 'r') as f:
         lines = f.readlines()
     chat=''.join(lines[-min(1500, len(lines)):])
     return gpt(chat)

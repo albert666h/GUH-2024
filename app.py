@@ -84,10 +84,15 @@ def upload_file():
                 img = i
                 break
         
-        color = 'grey'
+        color = 'black'
 
         if img:
             color = image_analyzer.extractData_image(UPLOAD_FOLDER+'/'+session['cookie']+'/'+img)
+
+            for mood in image_analyzer.colours.keys():
+                if mood in color:
+                    color = image_analyzer.colours[mood]
+                    break
 
         print(color)
         

@@ -7,9 +7,23 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #5a8c61;
     color: white;
     overflow-y: scroll;
+    background-attachment: fixed; 
+    background-size: cover;
+    /* background: linear-gradient(180deg, #0c3357, #9AFD7F); */
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.image {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+    opacity: 0.5;
 }
 
 .timeline {
@@ -18,11 +32,12 @@ body {
     padding: 50px 0;
 }
 
+
 .line {
     background-color: white;
     position: fixed;
     top: 0;
-    left: 350px;
+    left: 280px;
     width: 4px;
     height: 100%;
 }
@@ -50,7 +65,7 @@ body {
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
-    font-size: 4em;
+    font-size: 3em;
     opacity: 1;
 }
 

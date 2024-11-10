@@ -10,7 +10,7 @@ colours = {
     "passionate":"pink",
     "terrified":"brown",
     "tired":"grey",
-    "calm":"light_blue"
+    "calm":"black"
 }
 
 

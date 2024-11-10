@@ -137,8 +137,8 @@ body {
 }
 
 input[type="file"]::file-selector-button {
-    background-color: #9AFD7F;
-    color: black;
+    background-color: #c0c0c0;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 8px 18px;
     font-size: 1em;
