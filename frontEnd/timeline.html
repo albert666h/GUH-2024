@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline with Full Page Scroll</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="logo.png" alt="Memora Logo" class="logo">
+            <span class="company-name">Memora</span>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+            <li><a href="#">Section</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sidebar containing the timeline navigation -->
+    <div class="timeline-sidebar">
+        <h1>Your personalised
+            <br>
+            <span class="highlight">
+                <img src="green_line.png" alt="Swirly Line" class="swirly-line">
+                questions
+            </span>
+        </h1>
+        <!-- Each timeline item represents a year with a dot and year label -->
+        <div class="all-items">
+            <div class="timeline-item" data-target="#section-2016">
+                <div class="timeline-dot"></div> <!-- Circular dot for each year -->
+                <span class="timeline-year">Q1</span> <!-- Year label next to the dot -->
+            </div>
+            <div class="timeline-item" data-target="#section-2017">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">Q2</span>
+            </div>
+            <div class="timeline-item" data-target="#section-2018">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">Q3</span>
+            </div>
+            <div class="timeline-item" data-target="#section-2019">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">Q4</span>
+            </div>
+            <div class="timeline-item" data-target="#section-2020">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">Q5</span>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Main content area that scrolls with each section filling the full viewport -->
+    <div class="content-wrapper">
+        <!-- Content section for the year 2016 -->
+        <section class="content-section" id="section-2016">
+            <h1>Choose the altered question:</h1> <!-- Section header for the year -->
+            <p>Details for the year 2016...</p> <!-- Description for the year -->
+        </section>
+        <!-- Content section for the year 2017 -->
+        <section class="content-section" id="section-2017">
+            <h1>Choose the altered question:</h1>
+            <p>Details for the year 2017...</p>
+        </section>
+        <!-- Content section for the year 2018 -->
+        <section class="content-section" id="section-2018">
+            <h1>Choose the altered question:</h1>
+            <p>Details for the year 2018...</p>
+        </section>
+        <!-- Content section for the year 2019 -->
+        <section class="content-section" id="section-2019">
+            <h1>Choose the altered question:</h1>
+            <p>Details for the year 2019...</p>
+        </section>
+        <!-- Content section for the year 2020 -->
+        <section class="content-section" id="section-2020">
+            <h1>Choose the altered question:</h1>
+            <p>Details for the year 2020...</p>
+        </section>
+    </div>
+
+    <!-- JavaScript file to handle interaction (scrolling behavior, highlighting active dot) -->
+    <script src="script.js"></script>
+</body>
+</html>
+
