@@ -14,12 +14,9 @@
         }
     </script>
 
-    <style>
-        background: linear-gradient(180deg {% for item in data %}, {{ item.color }} 20% {% endfor %});
-    </style>
-
 </head>
-<body onbeforeunload="sendLogout()">
+        
+        <body onbeforeunload="sendLogout()" style="background: linear-gradient(180deg {% for item in data %}, {{ item.color }} 20% {% endfor %});">
     <div class="timeline">
         <div class="line"></div>
 
