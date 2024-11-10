@@ -3,6 +3,8 @@ import os
 import chatgpt, image_analyzer
 import random
 import string
+from zipfile import ZipFile
+
 
 def generate_random_string(length):
     chars = string.ascii_letters + string.digits
@@ -51,14 +53,8 @@ def logout():
     session.clear()
     return redirect('/')
 
-@app.route('/upload-timeline', methods=['POST'])
-def upload_file():
-    if 'cookie' in session:
-        print('cookies in session')
-        return redirect('/timeline') 
-    if 'file' not in request.files:
-        return 'No file selected'
-
+@app.route('/upload', methods=['POST'])
+def upload():
     session['cookie'] = generate_random_string(40)
     file = request.files['file']
     filename = 'chat.zip'
@@ -66,8 +62,18 @@ def upload_file():
     os.makedirs(path1)
     path = os.path.join(path1, filename)
     file.save(path)
+    with ZipFile(path, 'r') as zObject: 
+       zObject.extractall(path=path1) 
+       print('extracted')
+    return render_template('/selection.html')
 
-    res = chatgpt.extractData_timeline(path=path1).split("\n")
+@app.route('/upload-timeline')
+def upload_file():
+    if not 'cookie' in session:
+        return redirect('/')
+
+    path = os.path.join(UPLOAD_FOLDER, session['cookie'])
+    res = chatgpt.extractData_timeline(path=path).split("\n")
 
     content = []
 
@@ -90,7 +96,7 @@ def upload_file():
             color = image_analyzer.extractData_image(UPLOAD_FOLDER+'/'+session['cookie']+'/'+img)
 
             for mood in image_analyzer.colours.keys():
-                if mood in color:
+                if mood in color.lower():
                     color = image_analyzer.colours[mood]
                     break
 
@@ -109,6 +115,22 @@ def upload_file():
     print(f"\n\n\n\nFinish upload")
 
     return redirect('/timeline')
+
+@app.route('/quiz')
+def quiz():
+    return "quiz"
+
+@app.route('/upload-quiz')
+def upload_quiz():
+    if not 'cookie' in session:
+        return redirect('/')
+    path = os.path.join(UPLOAD_FOLDER, session['cookie'])
+
+    res = chatgpt.extractData_quiz(path=path)
+
+    print(res)
+
+    return redirect('/quiz')
 
 
 if __name__ == "__main__":

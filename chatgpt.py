@@ -1,5 +1,5 @@
 from openai import OpenAI
-from zipfile import ZipFile
+# from zipfile import ZipFile
 key = open('key', 'r').readline().rstrip()
 client = OpenAI(api_key=key)
 prompt = \
@@ -47,21 +47,38 @@ def gpt(data):
 
 
 def extractData_timeline(path):
-    with ZipFile(path + "/chat.zip", 'r') as zObject: 
-       zObject.extractall(path) 
-    #file= open('chat/_chat.txt')
-    chat=''
-    with open(path + '/_chat.txt') as f:
-        lines = f.readlines()
-    chat=''.join(lines[-min(1500, len(lines)):])
-    return gpt(chat)
-
-def extractData_quiz(path):
-    with ZipFile(path, 'r') as zObject: 
-       zObject.extractall(path="chat/") 
+    # with ZipFile(path + "/chat.zip") as zObject: 
+    #    zObject.extractall(path) 
     #file= open('chat/_chat.txt')
     chat=''
     with open(path + '/_chat.txt', 'r') as f:
         lines = f.readlines()
     chat=''.join(lines[-min(1500, len(lines)):])
     return gpt(chat)
+
+def extractData_quiz(path):
+    # with ZipFile(path + '/chat.zip') as zObject: 
+    #    zObject.extractall(path="chat/") 
+    #file= open('chat/_chat.txt')
+    chat=''
+    with open(path + '/_chat.txt', 'r') as f:
+        lines = f.readlines()
+    chat=''.join(lines[-min(1500, len(lines)):])
+    return gpt(chat)
+
+def get_questions(path):
+    datum=[]
+    for _ in range(5):
+        question=extractData_quiz(path)
+        parts=question.split('\n')
+        data=[]
+        for part in parts:
+            temp=part.split('->')
+            if 'True' in temp[1]:
+                temp[1]='True'
+            if 'False' in temp[1]:
+                temp[1]='False'
+            data.append(temp)
+        datum.append(data)
+    
+    return datum
